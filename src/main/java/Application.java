@@ -35,7 +35,7 @@ public class Application {
         //policy设置1 人工模式 运行程序则开始抢
         //policy设置2 时间触发 运行程序后等待早上5点59分30秒开始
         //policy设置3 时间触发 运行程序后等待早上8点29分30秒开始
-        int policy = 1;//默认人工模式
+        int policy = 3;//默认人工模式
 
         //最小订单成交金额 举例如果设置成50 那么订单要超过50才会下单
         double minOrderPrice = 0;
@@ -48,9 +48,9 @@ public class Application {
 
         //取随机数
         //请求间隔时间最小值
-        int sleepMillisMin = 300;
+        int sleepMillisMin = 100;
         //请求间隔时间最大值
-        int sleepMillisMax = 500;
+        int sleepMillisMax = 300;
 
 
         //5点59分30秒时间触发
